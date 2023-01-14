@@ -104,6 +104,8 @@ const Slider = () => {
     }
   };
 
+
+  //! NEED TO UPDATE ARROW ICONS CURRENTLY NOT WORKING
   return (
     <Container>
       <Arrow direction="left" onClick={() => handleClick("left")}>
