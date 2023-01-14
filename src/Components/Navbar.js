@@ -3,7 +3,7 @@ import React from 'react';
 import { Search, ShoppingCartOutlined } from '@mui/icons-material';
 import styled from 'styled-components';
 import {mobile} from '../helpers/responsive';
-import {useSelector} from 'redux';
+// import {useSelector} from 'redux';
 import Link from 'next/link';
 
 
@@ -61,8 +61,10 @@ const MenuItem = styled.div`
 `;
 
 
+
 const Navbar = () => {
-    const quantity = useSelector(state=>state.cart.quantity);
+
+    // const quantity = useSelector(state=>state.cart.quantity);
     // const user = useSelector(state => state.user)
     const user = null
     // console.log(user)
@@ -75,7 +77,7 @@ return (
             </Left>
             <Center>
                 <Logo>
-                    <Link to='/' style={{color: 'white', textDecoration: 'none'}}>Swag.</Link>
+                    <Link href='/login' style={{color: 'white', textDecoration: 'none'}}>Swag</Link>
                 </Logo>
                 </Center>
                 {user ? <Right>
@@ -88,13 +90,10 @@ return (
                     <Right>
                     <MenuItem>REGISTER</MenuItem>
                     <MenuItem>
-                    <Link to='/login' style={{color: 'white', textDecoration: 'none'}}>SIGN IN</Link>
+                    <Link href='/login' style={{color: 'white', textDecoration: 'none'}}>SIGN IN</Link>
                     </MenuItem>
-                    <Link to="/cart">
+                    <Link href="/cart">
                     <MenuItem>
-                      <Badge badgeContent={quantity} color='primary'>
-                        <ShoppingCartOutlined style={{color: 'white'}} />
-                      </Badge>
                     </MenuItem>
                     </Link>
                   </Right>
