@@ -10,7 +10,7 @@ import Announcement from '../Components/Announcement';
 import Navbar from '../Components/Navbar';
 import Slider from '../Components/Slider/Slider';
 import Categories from '../Components/Categories';
-
+import Products from '../Components/Products/Products';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -28,6 +28,7 @@ export default function Home() {
       <Navbar/>
       <Slider/>
       <Categories/>
+      <Products/>
     </>
   )
 } 
