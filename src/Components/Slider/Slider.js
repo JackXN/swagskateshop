@@ -46,21 +46,21 @@ const Slide = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #${(props) => props.bg};
+  background-color: #EDECED;
 `;
 
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
   display: flex;
-  background: black;
+  background: #EDECED;
   padding: 30px
 `;
 
 const Image = styled.img`
   height: 80%;
   margin-top: 10rem;
-  background: black;
+  background: #EDECED;
 `;
 
 const InfoContainer = styled.div`
@@ -70,6 +70,7 @@ const InfoContainer = styled.div`
 
 const Title = styled.h1`
   font-size: 70px;
+  color: black
 `;
 
 const Desc = styled.p`
@@ -77,6 +78,7 @@ const Desc = styled.p`
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 3px;
+  color: gray;
 `;
 
 const Button = styled.button`
@@ -84,6 +86,12 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  color: black;
+  &:hover {
+    color: gray;
+
+
+  }
 `;
 
 const Slider = () => {
@@ -110,7 +118,7 @@ const Slider = () => {
             <InfoContainer>
               <Title>{item.title}</Title>
               <Desc>{item.desc}</Desc>
-              <Button>SHOW NOW</Button>
+              <Button>SHOP NOW</Button>
             </InfoContainer>
           </Slide>
         ))}

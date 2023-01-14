@@ -1,21 +1,21 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ytimg.com/vi/lxNqBexCMfE/maxresdefault.jpg",
+      img: "https://assets-global.website-files.com/5cb101a02edee007b47d60fa/62602db8e81621843023194a_ETNIES_SP22_BASPAT_PR_Newsletter.jpg",
       title: "NEW SHOE DROPS",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
     },
       {
         id: 2,
-        img: "https://i.ytimg.com/vi/keeYQ6Jvf4o/maxresdefault.jpg",
+        img: "https://cdn.musebycl.io/2021-07/Facebook-App-Longboard-Family-hed-2021.jpg",
         title: "SUMMER SALE",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg: "f5fafd",
       },
       {
         id: 3,
-        img: "https://www.jaywatson.com/blog/wp-content/uploads/2012/04/Watson_101028_3635_Christian_Hosoi.jpg",
+        img: "https://images.vans.com/is/image/Vans/VN0A5FPQ5RJ-HERO?wid=1600&hei=1600&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.7,8,0&bgc=e5e5e9",
         title: "AUTUMN COLLECTION",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg: "D3C1B4",
