@@ -8,6 +8,11 @@ import styles from '@/styles/Home.module.css';
 // Components
 import Announcement from '../Components/Announcement';
 import Navbar from '../Components/Navbar';
+import Slider from '../Components/Slider/Slider';
+
+
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,6 +26,7 @@ export default function Home() {
       </Head>
 <Announcement/>
       <Navbar/>
+      <Slider/>
     </>
   )
-}
+} 

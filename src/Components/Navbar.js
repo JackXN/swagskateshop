@@ -77,7 +77,7 @@ return (
             </Left>
             <Center>
                 <Logo>
-                    <Link href='/login' style={{color: 'white', textDecoration: 'none'}}>Swag</Link>
+                    <Link href='/' style={{color: 'white', textDecoration: 'none'}}>Swag</Link>
                 </Logo>
                 </Center>
                 {user ? <Right>
