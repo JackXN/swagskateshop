@@ -9,7 +9,7 @@ import styles from '@/styles/Home.module.css';
 import Announcement from '../Components/Announcement';
 import Navbar from '../Components/Navbar';
 import Slider from '../Components/Slider/Slider';
-
+import Categories from '../Components/Categories';
 
 
 
@@ -27,6 +27,8 @@ export default function Home() {
 <Announcement/>
       <Navbar/>
       <Slider/>
+      <Categories/>
+
     </>
   )
 } 

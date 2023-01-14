@@ -1,7 +1,7 @@
 import { AiOutlineArrowRight as RightArrow, AiOutlineArrowLeft as LeftArrow } from "react-icons/ai";
 import { useState } from "react";
 import styled from "styled-components";
-import {sliderItems} from '../Slider/data';
+import {sliderItems} from '../../helpers/data';
 import {mobile} from '../../helpers/responsive';
 
 const Container = styled.div`
