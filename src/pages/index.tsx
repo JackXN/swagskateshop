@@ -28,7 +28,6 @@ export default function Home() {
       <Navbar/>
       <Slider/>
       <Categories/>
-
     </>
   )
 } 
