@@ -7,7 +7,7 @@ import styles from '@/styles/Home.module.css';
 
 // Components
 import Announcement from '../Components/Announcement';
-
+import Navbar from '../Components/Navbar';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <Announcement/>
-      
+      <Navbar/>
     </>
   )
 }

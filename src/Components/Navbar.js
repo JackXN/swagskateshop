@@ -1,9 +1,10 @@
-import React from 'react;
-import { Badge } from '@material-ui/core';
+import React from 'react';
+// import { Badge } from '@material-ui/core';
 import { Search, ShoppingCartOutlined } from '@mui/icons-material';
 import styled from 'styled-components';
-// import {mobile} from '../responsive';
-import {useSelector} from 'react-redux';
+import {mobile} from '../helpers/responsive';
+import {useSelector} from 'redux';
+import Link from 'next/link';
 
 
 const Container = styled.div`
@@ -59,3 +60,50 @@ const MenuItem = styled.div`
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
+
+const Navbar = () => {
+    const quantity = useSelector(state=>state.cart.quantity);
+    // const user = useSelector(state => state.user)
+    const user = null
+    // console.log(user)
+
+return (
+    <Container>
+        <Wrapper>
+            <Left>
+                <Language>EN</Language>
+            </Left>
+            <Center>
+                <Logo>
+                    <Link to='/' style={{color: 'white', textDecoration: 'none'}}>Swag.</Link>
+                </Logo>
+                </Center>
+                {user ? <Right>
+                    <Link to="/cart">
+          <MenuItem>
+       
+          </MenuItem>
+          </Link>
+                </Right> :
+                    <Right>
+                    <MenuItem>REGISTER</MenuItem>
+                    <MenuItem>
+                    <Link to='/login' style={{color: 'white', textDecoration: 'none'}}>SIGN IN</Link>
+                    </MenuItem>
+                    <Link to="/cart">
+                    <MenuItem>
+                      <Badge badgeContent={quantity} color='primary'>
+                        <ShoppingCartOutlined style={{color: 'white'}} />
+                      </Badge>
+                    </MenuItem>
+                    </Link>
+                  </Right>
+                }
+        </Wrapper>
+    </Container>
+)
+
+
+}
+
+export default Navbar;
