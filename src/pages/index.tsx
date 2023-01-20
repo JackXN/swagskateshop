@@ -11,7 +11,7 @@ import Navbar from '../Components/Navbar';
 import Slider from '../Components/Slider/Slider';
 import Categories from '../Components/Categories';
 import Products from '../Components/Products/Products';
-
+import Newsletter from '../Components/Newsletter';
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
       <Navbar/>
       <Slider/>
       <Categories/>
-      <Products/>
+      <Newsletter/>
     </>
   )
 } 
