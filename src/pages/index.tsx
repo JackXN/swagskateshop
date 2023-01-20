@@ -12,7 +12,7 @@ import Slider from '../Components/Slider/Slider';
 import Categories from '../Components/Categories';
 import Products from '../Components/Products/Products';
 import Newsletter from '../Components/Newsletter';
-
+import Footer from '../Components/Footer';
 export default function Home() {
   return (
     <>
@@ -26,7 +26,9 @@ export default function Home() {
       <Navbar/>
       <Slider/>
       <Categories/>
+      {/* <Products/> */}
       <Newsletter/>
+      <Footer/>
     </>
   )
 } 
