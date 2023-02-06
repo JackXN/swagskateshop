@@ -95,9 +95,7 @@ import {mobile} from '../helpers/responsive';
         <Left>
           <Logo><Link href='/'>SWAG.</Link></Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+            
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -117,21 +115,17 @@ import {mobile} from '../helpers/responsive';
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
+            <ListItem>Mens Skate</ListItem>
+            <ListItem>Womens Skate</ListItem>
             <ListItem>Accessories</ListItem>
             <ListItem>My Account</ListItem>
             <ListItem>Order Tracking</ListItem>
             <ListItem>Wishlist</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Terms</ListItem>
+            <ListItem>Terms & Conditions</ListItem>
           </List>
         </Center>
         <Right>
           <Title>Contact</Title>
-          <ContactItem>
-            something
-          </ContactItem>
           <ContactItem>
             <Phone style={{marginRight:"10px"}}/> +1 234 56 78
           </ContactItem>

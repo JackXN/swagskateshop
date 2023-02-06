@@ -3,10 +3,22 @@ import styled from "styled-components";
 import Product from "./Product";
 import axios from "axios";
 
+
+
+
+
+
+// 12 products
+// 1. 3 Hats
+// 2. 3 Shirts
+// 3. 3 Shoes
+// 4. 3 pants
+
+
     
 
 const Container = styled.div`
-padding: 20px;
+padding: 10px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;

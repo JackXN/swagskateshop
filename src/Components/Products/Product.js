@@ -24,15 +24,8 @@ const Product = ({ item }) => {
 
   return (
 <Box sx={styles.Container}>
-  <Box sx={styles.Circle}></Box>
-  <Image src={item.img} alt={item.title} height='100px' width='100px'/>
-  <Box sx={styles.Info}>
+  <img src={item.img} alt={item.title} height='100%' width='20%'/>
 
-  </Box>
-<Box sx={styles.textContainer}>
-  <Text as='h1'>{item.title}</Text>
-  <Button>Shop Now</Button>
-</Box>
 </Box>
   );
 };

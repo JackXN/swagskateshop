@@ -26,7 +26,7 @@ export default function Home() {
       <Navbar/>
       <Slider/>
       <Categories/>
-      {/* <Products/> */}
+      <Products/>
       <Newsletter/>
       <Footer/>
     </>
